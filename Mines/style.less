@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+/* font-family: 'Source Code Pro', sans-serif; */
+@mainFont: 'Source Code Pro', sans-serif;
+
+body {
+  background-color: #dddddd;
+  font-family: 'Source Code Pro', sans-serif;
+  font-size: 18px;
+}
+
+#header1 {
+  margin-bottom: 5px;
+}
+
+#header2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mine {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 1px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-family: @mainFont;
+  
+  &:focus {
+    outline: none;
+  }
+  
+  span {
+    padding: 5px;
+  }
+}
+
+.mineUnopened {
+  .mine;
+  background-color: #ffffff;
+}
+
+.mineOpened {
+  .mine;
+  border-color: green;
+  background-color: #eeeeee;
+  color: #000000;
+}
+
+.hasBomb {
+  border-color: red;
+  color: red;
+}
+
+.mineFlagged {
+  border-color: orange;
+}
+
+.mineRow {
+  
+}
+
+.resetButton {
+  margin-top: 10px;
+  font-family: @mainFont;
+}
+
+.sizeContainer {
+  margin-top: 10px;
+}
+
+.sizeHeader {
+  float: left;
+  clear: right;
+  margin-top: 3px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.rowMinus, .rowPlus, .columnMinus, .columnPlus {
+  float: left;
+}
