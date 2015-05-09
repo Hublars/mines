@@ -8,4 +8,4 @@ Require
 React
 Bacon
 Less
-![Screenshot](https://raw.githubusercontent.com/Hublars/mines/master/screenshots/mineimage.PNG)
+![Screenshot](https://raw.githubusercontent.com/Hublars/mines/tree/master/screenshots/mineimage.PNG)
